@@ -1,0 +1,29 @@
+# Data sources
+
+This project combines public datasets and a small manually written seed set.
+
+## Labels and sources
+
+- `request`
+  - Source: Hugging Face dataset `Tobi-Bueck/customer-support-tickets`
+  - Used as request-like customer support messages
+
+- `complaint`
+  - Source: Hugging Face dataset `determined-ai/consumer_complaints_short`
+  - Used as complaint-like customer issue messages
+
+- `spam`
+  - Source: Hugging Face dataset `UniqueData/email-spam-classification`
+  - Used as spam / non-spam email text examples
+
+- `praise`
+  - Source: manually written examples in `data/raw/manual_seed.csv`
+
+- `urgent`
+  - Source: manually written examples in `data/raw/manual_seed.csv`
+
+## Notes
+
+- Only processed text is used in the final training file.
+- No private personal email data is stored in this repository.
+- Public dataset licenses should be reviewed before redistribution or commercial use.
