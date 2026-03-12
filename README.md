@@ -141,9 +141,11 @@ Training configuration:
 - batch size: 8
 
 ## Results
+```
 Model	                        Accuracy	 Macro F1
 TF-IDF + Logistic Regression	~0.99	     ~0.99
 DistilBERT	                    ~1.00	     ~1.00
+```
 
 ⚠️ **Note:** High scores are partly due to the curated and balanced dataset. Real-world performance may be lower with noisier data.
 
