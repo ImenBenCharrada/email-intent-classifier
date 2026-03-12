@@ -37,7 +37,7 @@ Automatically detecting intent helps with:
 This project explores how machine learning can assist with automated email triaging.
 
 ## Project Architecture
-
+```
 Email Text
      │
      ▼
@@ -56,9 +56,10 @@ FastAPI REST API
      │
      ▼
 Streamlit Demo UI
+```
 
 ## Project Structure
-
+```
 email-intent-classifier
 │
 ├── app
@@ -97,6 +98,7 @@ email-intent-classifier
 │
 ├── requirements.txt
 └── README.md
+```
 
 ## Dataset
 
